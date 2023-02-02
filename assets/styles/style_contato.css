@@ -1,0 +1,56 @@
+body {
+    width: 100vw;
+    height: 170vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8.56vh 80vh 42.24vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E0E0E;
+}
+
+.contato {
+    background-color: #fbfbfb;
+    height: 80%;
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5vh;
+    border-radius: 0.35em;
+}
+
+.contato>h4 {
+    align-self: flex-start;
+    margin: 4vh 0 3vh 13%;
+}
+
+.contato>label {
+    align-self: flex-start;
+    margin-left: 13%;
+    margin-bottom: 0.5vh;
+    font-size: 0.6em;
+}
+
+.contato>input {
+    width: 75%;
+    border: 1px solid #0E0E0E;
+    border-radius: 0.3em;
+    height: 5.5vh;
+}
+
+#mensagem {
+    height: 15vh;
+    margin-bottom: 1.5vh;
+}
+
+#enviar {
+    font-size: 0.6em;
+    height: 7.5vh;
+    background-color: #F6C34A;
+    border: none;
+}
